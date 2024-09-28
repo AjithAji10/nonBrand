@@ -1,0 +1,81 @@
+.lp-community {
+    width: 100%;
+    padding: 4em 0;
+  
+    @media screen and (max-width: 800px) {
+      padding: 0;
+      max-width: 100%;
+    }
+    .lp-community-hero {
+      margin-left: 6em;
+      margin-bottom: 4em;
+      margin-top: 3em;
+      @media screen and (max-width: 800px) {
+        margin-left: 2em;
+        margin-bottom: 2em;
+        margin-top: 2em;
+      }
+    }
+    .lp-community-sub-head {
+      color: #f1ae13;
+      font-family: Plus Jakarta Sans !important;
+      font-size: 18px;
+      font-style: normal;
+      font-weight: 700;
+      line-height: 133%;
+      @media screen and (max-width: 800px) {
+        font-size: 16px;
+        width: 215px;
+        padding: 0;
+      }
+    }
+    .l-community-head {
+      color: #505050;
+      font-family: Plus Jakarta Sans !important;
+      font-size: 28px;
+      font-style: normal;
+      font-weight: 600;
+      line-height: 143%;
+      @media screen and (max-width: 800px) {
+        font-size: 22px;
+        padding: 0;
+        margin-top: 8px;
+      }
+    }
+    .lp-community-underline {
+      height: 8px;
+      width: 292px;
+      @media screen and (max-width: 800px) {
+        width: 178px;
+        padding: 0;
+        height: 7.6px;
+      }
+    }
+  
+    .l-community-desc {
+      color: #505050;
+      font-family: Plus Jakarta Sans !important;
+      font-size: 16px;
+      font-weight: 400;
+      line-height: 143%;
+      margin-top: 0.5em;
+      @media screen and (max-width: 800px) {
+        line-height: 120%;
+        padding: 0;
+        font-size: 14px;
+        width: 266px;
+      }
+    }
+    .miner-community {
+      background-color: white !important;
+      margin-top: 2em;
+  }
+ 
+  .marqueImg {
+      width: auto;
+      height: 600px;
+      @media screen and (max-width: 800px) {
+          height: 300px;
+      }
+  }
+}

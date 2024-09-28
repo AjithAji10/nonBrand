@@ -1,0 +1,205 @@
+.mlp-main-trainers {
+  padding: 2em 0;
+  color: #7e7e7e;
+
+  .slick-arrowCustom {
+    width: 5em;
+  }
+
+    .mobile-block{
+      @media screen and (max-width: 900px) {
+        display: block;
+      }
+    }
+
+    .bold-text{
+      @media screen and (max-width: 900px) {
+        font-weight: 700;
+      }
+    }
+
+  .mlp-bg .trainers-container {
+    width: 85%;
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+    background: none !important;
+    @media screen and (max-width: 900px) {
+      padding-top: 1rem;
+      width: 100%;
+      padding: 0 1.1em;
+    }
+  }
+
+  .mlp-bg{
+    background: #ffffff !important;
+  }
+  .will-be-training {
+    background: #ffffff;
+    padding: 2em 0;
+    padding-top: 5em;
+    margin: 2em auto;
+    @media screen and (max-width: 900px) {
+      padding: 0.1em 0;
+      padding-top: 0em;
+      margin-top: 0em;
+    }
+
+    .training-section-title {
+      display: block;
+      font-size: 28px;
+      line-height: 37px;
+      font-weight: 700;
+      margin-bottom: 2em;
+      @media screen and (max-width: 900px) {
+        font-size: 24px;
+        line-height: 32px;
+        margin-bottom: 1em;
+      }
+    }
+
+    .training-section-subtitle {
+      margin: 0em auto;
+      max-width: 973px !important;
+      @media screen and (max-width: 900px) {
+        font-size: 14px;
+        line-height: 18.7px;
+      }
+    }
+
+    .trainers-slider {
+      margin: 2em auto;
+      max-width: 55em;
+      overflow: hidden;
+      @media screen and (max-width: 900px) {
+        margin-top: 0em;
+      }
+
+      .trainers-note {
+        font-style: italic;
+        color: #000000 !important;
+        font-weight: 400 !important;
+        margin-top: 1.2em;
+      }
+
+      .slick-slider {
+        position: relative;
+        .slick-arrow {
+          position: absolute;
+          bottom: -2em !important;
+          width: 44px;
+          height: 44px;
+          background: #fff;
+          border-radius: 50%;
+
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          cursor: pointer;
+          border: none;
+          //   color: transparent;
+          margin-bottom: 1em;
+          text-indent: 100%;
+          white-space: nowrap;
+          overflow: hidden;
+          z-index: 1;
+        }
+
+        .slick-prev {
+          left: 40%;
+          box-shadow: 4px 4px 4px rgba(0, 0, 0,0.15);
+          background-image: url(../../../../static/assets/btnleft.png);
+          background-repeat: no-repeat;
+          background-position: center;
+          @media screen and (max-width: 900px) {
+            left: 40%;
+          }
+          @media screen and (max-width: 520px) {
+            left: 30%;
+          }
+        }
+
+        .slick-next {
+          right: 40%;
+          box-shadow: -4px 4px 4px rgba(0, 0, 0,0.05);
+          background-image: url(../../../../static/assets/btnright.png);
+          background-repeat: no-repeat;
+          background-position: center;
+          @media screen and (max-width: 900px) {
+            right: 40%;
+          }
+          @media screen and (max-width: 520px) {
+            right: 30%;
+          }
+        }
+      }
+
+      .trainer-card {
+        width: 15em !important;
+        margin-bottom: 5em;
+        @media screen and (max-width: 900px) {
+          margin-bottom: 1em !important;
+
+        }
+      }
+      .customized {
+        margin-bottom: 5.5em !important;
+        @media screen and (max-width: 900px) {
+          margin-bottom: 1em !important;
+        }
+        .customized-trainer-img {
+          width: 90%;
+          height: 275px;
+          object-fit: cover;
+          border-radius: 5px;
+          margin: auto;
+          box-shadow: 0px 2px 10px 1px rgba(0, 0, 0, 0.2);
+        }
+      }
+      .slick-track {
+        padding: 2rem 0;
+        display: flex;
+        justify-content: center;
+        @media screen and (max-width: 900px) {
+          text-align: center;
+        }
+
+        .slick-slide > div {
+          height: 100%;
+        }
+      }
+    }
+  }
+
+  .alumni-working {
+    margin-top: 2em;
+    border-bottom: 1px solid #c4c4c4;
+    padding-top: 5em;
+    padding-bottom: 3em;
+    @media screen and (max-width: 900px) {
+      padding-top: 0em;
+    }
+    .alumni-section-title {
+      font-size: 1.7em;
+      font-weight: bold;
+      @media screen and (max-width: 900px) {
+        font-size: 1.4em;
+      }
+    }
+
+    .alumni-section-img {
+      max-width: 50em;
+      margin: 3em auto;
+      @media screen and (max-width: 900px) {
+        display: none;
+      }
+    }
+    .alumni-section-img-mb {
+      display: none;
+      margin-top: 3rem;
+      @media screen and (max-width: 900px) {
+        display: block;
+      }
+    }
+  }
+}

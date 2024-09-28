@@ -1,0 +1,611 @@
+.recruiters{
+  @media screen and (max-width: 900px) {
+padding-top: 2em !important;
+  }
+}
+.mlp-main-placements {
+  background: #ffffff;
+  color: #7e7e7e;
+  //padding: 4em 0;
+  @media screen and (max-width: 900px) {
+    padding:0;
+  }
+  .placements-container {
+    width: 100%;
+    max-width: 1440px;
+    margin: 0 auto;
+    text-align: center;
+    @media screen and (max-width: 900px) {
+      width: 90%;
+    }
+  }
+
+  .placements-head {
+    font-weight: bold;
+    font-size: 2em;
+    line-height: 35px;
+    color: #f1ae13;
+    @media screen and (max-width: 900px) {
+      font-size: 1.5em;
+    }
+  }
+
+  .placements-description {
+    font-size: 1.1em;
+    margin: 2em auto;
+    max-width: 50em;
+    text-align: center;
+
+    @media screen and (max-width: 900px) {
+      font-size: 0.85em;
+      line-height: 1.5;
+      margin-top: 1.4em;
+    }
+
+    .placements-description-line-break {
+      display: block;
+    }
+
+    .placements-role {
+      display: block;
+      margin-top: 2em;
+    }
+  }
+
+  .header {
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 35.4px;
+    text-align: center;
+    color: #7E7E7E;
+    @media screen and (max-width: 900px) {
+      font-size: 18px;
+      line-height: 22.75px;   
+     }
+  }
+
+  .placements-role-class {
+    margin: 2rem auto;
+    display: flex;
+    gap: 3rem;
+    @media screen and (max-width: 900px) {
+      flex-direction: column;
+    }
+    .placement-grid-1 {
+      width: 55%;
+      @media screen and (max-width: 900px) {
+        width: 100%;
+      }
+    }
+    .placement-grid-2 {
+      width: 50%;
+      @media screen and (max-width: 900px) {
+        width: 100%;
+      }
+    }
+    .placements-role-class-sec {
+      .placements-role-class-head {
+        text-align: center;
+        color: #7e7e7e;
+        font-size: 1.15em;
+        margin-bottom: 1rem;
+        @media screen and (max-width: 900px) {
+          font-size: 1.1em;
+          margin-bottom: 0.3rem;
+        }
+        h4 {
+          font-weight: normal;
+        }
+      }
+      .placements-role-class-desc {
+        text-align: center;
+        color: #404040;
+        font-size: 0.9em;
+        line-height: 26px;
+        @media screen and (max-width: 900px) {
+          line-height: 23px;
+        }
+      }
+    }
+  }
+
+  .slick-arrow{
+    border: none;
+    padding: 1em;
+    //background: none;
+    position: absolute;
+    margin-top: 1em;
+    margin-left: 0%;
+    display: flex;
+    width: 55px;
+    height: 55px;
+    z-index: 2;
+    border: none;
+    outline: none;
+    @media screen and (max-width: 1000px) {
+      //display: none !important;
+      width: 44px !important;
+      height: 44px !important;
+    }
+    
+  }
+  .slick-arrow:nth-of-type(2) {
+    right: 0%;
+    margin-top: -16em;
+    @media screen and (max-width: 1200px) {
+      margin-top: -18em;
+
+    }
+    @media screen and (min-width: 1500px) {
+      right: 0%;
+      margin-top: -15em;
+    }
+    @media screen and (min-width: 1800px) {
+        right: 0%;
+        margin-top: -15em;
+    }
+  }
+
+  .slick-next {
+    background-image: url(../../../../static/assets/btnright.png) ;
+    background-size: cover !important;
+    background-repeat: no-repeat !important;
+    transform: translate(0.4em, 0em) !important;
+    @media screen and (max-width: 800px) {
+      transform: translate(2em, 0em) !important;
+    }
+  }
+
+  .slick-prev {
+    background-image: url(../../../../static/assets/btnleft.png);
+    background-size: cover !important;
+    background-repeat: no-repeat !important;
+    transform: translate(4.4em, 0em) !important;
+    @media screen and (max-width: 800px) {
+      transform: translate(-1.5em, 0em) !important;
+    }
+  }
+
+  .btn-holder{
+    width: 85%;
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    margin-top: 11%;
+    padding: 0 1em;
+    max-width: 1200px;
+    @media screen and (max-width: 800px) {
+    display: none;
+    }
+  }
+
+  .placement-slider {
+    margin: 4em auto;
+    margin-bottom: initial;
+    padding-bottom: 2em;
+    
+    @media screen and (max-width: 800px) {
+      margin: 0 auto;
+    }
+
+    .slick-initialized{
+      margin-top: 2em;
+    }
+
+    .slick-slider {
+      .slick-arrow{
+        padding: 0;
+      }
+      .slick-list{
+        padding: 0;
+      }
+    }
+
+    .slick-track {
+      padding:  0;
+      display: flex;
+      justify-content: space-around;
+      text-align: initial;
+
+      .slick-slide > div {
+        height: 100%;
+      }
+    }
+    .card-type2-section {
+      margin: 1em;
+      @media screen and (min-width: 900px) {
+        height: 300px !important;
+      }
+      @media screen and (max-width: 900px) {
+        padding: 1em !important;
+      }
+    }
+
+    .slick-dots {
+      display: flex !important;
+      justify-content: center;
+      width: 100px;
+      justify-content: space-evenly;
+      margin-top: 2em;
+      @media screen and (max-width: 900px) {
+        // width: 4em;
+      }
+
+      li::marker {
+        color: transparent;
+      }
+      button {
+        opacity: 0.25;
+        color: black;
+        background: black;
+        width: 1.5em;
+        height: 1.5em;
+        font-size: 0.5em;
+        display: inline-block;
+        border-radius: 11px;
+        border: none;
+      }
+
+      .slick-active button {
+        color: #f1ae13;
+        opacity: 1;
+        background: #f1ae13;
+        // width: 5em;
+      }
+    }
+  }
+}
+
+.should-apply-mlp{
+  width: 100% !important;
+  background-color: #f8f8f8;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2em 0;
+  @media screen and (max-width: 800px) {
+    padding: 1em 0;
+    
+  }
+  .apply-container-mlp{
+    text-align: center;
+    width: 85%;
+    max-width: 1200px;
+    color: #7e7e7e;
+    display: flex;
+    justify-content: center;
+      @media screen and (max-width: 800px) {
+       margin: 0 auto;
+       width: 90%;
+        display: block;
+  }
+}
+
+.should-apply-sub-header{
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  color: #7E7E7E;
+  text-align: start;
+  @media screen and (max-width: 900px) {
+    font-size: 12px;
+    line-height: 18px;
+  }
+}
+
+.vl {
+  border-left: 1px solid #7E7E7E;
+  height: 160px;
+  margin-right: 4em;
+  @media screen and (max-width: 900px) {
+    display: none;
+  }
+}
+  .should-apply-header {
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 35px;
+    color: #808080;
+    margin: 1rem 4em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    @media screen and (max-width: 900px) {
+      font-size: 22px;
+      line-height: 27px;
+      flex-direction: column;
+      margin: 1em 0;
+    }
+  }
+
+  .should-apply-description {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #7E7E7E;
+    margin: 1em auto;
+    max-width: 50em;
+    font-weight: normal;
+    text-align: left;
+    @media screen and (max-width: 900px) {
+      font-size: 12px;
+      line-height: 18.7px;
+      margin: 1em auto;
+      max-width: 90%;
+      line-height: 1.7;
+    }
+  }
+}
+
+.mlp-main{
+  //margin-top: 4em;
+  .mlp-student-slider {
+    width: 85%;
+    max-width: 1200px;
+    margin: 0.5em auto;
+    overflow: hidden;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    @media screen and (max-width: 900px) {
+      width: 100%;
+      padding: 1em 1em;
+    }
+    .slider-section-description{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+    text-align: center;
+    color: #7E7E7E;
+    margin-top: 2em;
+    max-width: 820px;
+    @media screen and (max-width: 900px) {
+      font-size: 12px;
+      margin-top: 1em;
+      line-height: 16px;
+    }
+    span{
+      font-weight: 700;
+    }
+  }
+
+  .color-change{
+    color: #404040;
+  }
+
+  .mobile-break{
+    display: inline;
+    @media screen and (max-width: 900px) {
+      display: block;
+    }
+  }
+
+    .header-color{
+      color: #F1AE13;
+      font-weight: 700;
+      font-size: 20px;
+      line-height: 26px;      
+      text-align: center;
+      text-transform: capitalize;
+      @media screen and (max-width: 900px) {
+        font-size: 14px;
+        line-height: 18.8px;
+      }
+    }
+
+    .slider-section-head-mlp {
+      font-weight: 700;
+      font-size: 28px;
+      line-height: 35.4px;
+      align-items: center;
+      text-align: center;
+      color: #7E7E7E;
+      max-width: 750px;
+      @media screen and (max-width: 800px) {
+        font-size: 18px !important;
+      line-height: 22.75px;
+      margin: 0 1em;
+      }
+    }
+
+    .batch-info {
+      font-size: 1em;
+      line-height: 133.4%;
+      text-align: center;
+      color: #404040;
+      width: 40%;
+      margin: 0.5em auto;
+
+      @media screen and (max-width: 800px) {
+        font-size: 0.8em;
+        width: 85%;
+      }
+    }
+  }
+  .recruiting-head {
+    font-weight: bold;
+    font-size: 1.7em;
+    line-height: 35px;
+    @media screen and (max-width: 900px) {
+      font-size: 1em;
+      line-height: 1.2;
+      margin-top: 1.4em;
+    }
+  }
+
+  .recruiting-decription {
+    font-size: 1.1em;
+    margin: 2em auto;
+    max-width: 50em;
+    @media screen and (max-width: 900px) {
+      font-size: 0.85em;
+      line-height: 1.5;
+      margin-top: 1.4em;
+    }
+  }
+  .recruiter-img {
+    @media screen and (max-width: 900px) {
+      display: none;
+    }
+  }
+  .recruiter-img-mb {
+    display: none;
+    @media screen and (max-width: 900px) {
+      display: flex;
+      flex-wrap: wrap;
+      grid-gap: 30px;
+      align-items: center;
+      justify-content: center;
+      
+    }
+  }
+}
+
+.apply-btn-placement{
+  display: none;
+  @media screen and (max-width: 900px) {
+    display: block;
+  background-color: #F1AE13;
+  padding: .7em 2.5em;
+  width: fit-content;
+  border-radius: 100px;
+  color: white;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 2em;
+  }
+}
+
+.carousal-btn{
+  border: none;
+    background: none;
+    position: absolute;
+    margin-top: 9em;
+    margin-left: 2%;
+    display: flex;
+    width: 55px;
+    height: 55px;
+    z-index: 2;
+    border: none;
+    outline: none;
+    @media screen and (max-width: 1000px) {
+      display: none !important;
+    }
+}
+
+.carousal-btn:nth-of-type(2) {
+  right: 2%;
+  margin-top: -15.5em;
+  @media screen and (max-width: 1200px) {
+    margin-top: -18em;
+
+  }
+  @media screen and (min-width: 1500px) {
+    right: 7%;
+    margin-top: -15em;
+  }
+  @media screen and (min-width: 1800px) {
+      right: 14%;
+      margin-top: -15em;
+  }
+}
+
+.slider-details{
+  font-weight: 400 !important;
+  font-size: 18px !important;
+  line-height: 24px;
+  text-align: center;
+  color: #404040;
+  margin-top: 1em;
+  max-width: 498px !important;
+
+  span{
+    font-weight: 700;
+  }
+  }
+
+  .mlp-main{
+    .slider-section-head-mlp{
+        margin-top: 3em;
+    }
+  }
+
+  .mlp-main .slick-track{
+    
+  }
+  
+  .mobile-space{
+    @media screen and (max-width: 900px) {
+      margin-top: 2em;
+
+    }
+  }
+  .companies{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    .img-container{
+      @media screen and (min-width: 900px) {
+      width: 95%;
+      border-radius: 1em;
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      align-content: center;
+      justify-content: center;
+      align-items: center;
+      max-width: 1300px;
+      }
+        border-radius: 0;
+        width: 100%;
+        background-color: #fdfdfd;
+        padding: .5em;
+        margin: 2em auto;
+        display: grid;
+          align-items: center;
+          justify-items: center;
+          grid-template-columns: 1fr 1fr;
+          padding: 1rem;
+          justify-items: stretch;
+      }
+      .img-section {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-content: center;
+        justify-content: center;
+        align-items: center;
+        padding: 1rem;
+        max-width: 200px;
+        @media screen and (max-width: 900px) {
+          width: 100%;
+          height: 20vh;
+          border: .5px solid grey;
+
+        }
+        .img-section img {
+          @media screen and (max-width: 900px) {
+          }
+        }
+      }
+      .img-section:nth-child(odd) {
+        border-top:0;
+        border-left:0; 
+      }
+      .img-section:nth-child(even) {
+        border-top:0;
+        border-left:0; 
+        border-right:0;
+      }
+
+      .img-section:nth-last-child(2) {
+        border-bottom:0;
+      }
+      .img-section:last-child {
+        border-bottom:0;
+      }
+   
+    }

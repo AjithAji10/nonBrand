@@ -1,0 +1,223 @@
+.mlp-main-specialisation {
+  color: #7e7e7e;
+  margin: 2em auto;
+  text-align: center;
+  padding-bottom: 3em;
+  @media screen and (max-width: 900px) {
+    padding-bottom: 4em;
+    margin-bottom: 0em;
+  }
+
+  .specialisation-container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+    .spec-tab-head {
+      display: flex;
+      justify-content: space-around;
+      padding: 1em;
+      gap: 3rem;
+      margin-bottom: 1rem;
+      margin-top: 1rem;
+      @media screen and (max-width: 900px) {
+        gap: 1.5rem;
+        margin-bottom: 2em;
+        padding: 0em;
+
+      }
+
+      .spec-tab-head-name {
+         width: 50%;
+        font-weight: 800;
+        cursor: pointer;
+        padding: 0.8em 1em;
+        border-radius: 5px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: white;
+        border: 1px solid #ffb800;
+        color: #7e7e7e;
+        @media screen and (max-width: 800px) {
+          width: 158px;
+          padding: 0.5em .4em;
+          font-size: 14px;
+          line-height: 18px;
+        }
+      }
+
+      .active-tab {
+        color: white;
+        background-color: #ffb800;
+        border: 1px solid #ffb800;
+        box-shadow: 5px 5px 30px rgba(0, 0, 0, 0.16);
+      }
+    }
+  }
+
+  .specialisation-section-title {
+    font-size: 1.7em;
+    font-weight: bold;
+
+    span {
+      display: block;
+    }
+    @media screen and (max-width: 900px) {
+      font-size: 1.5em;
+    }
+  }
+  .spec-content {
+    display: flex;
+    justify-content: center;
+    gap: 3.5rem;
+    margin-top: 5rem;
+    @media screen and (max-width: 900px) {
+      margin-top: 0.5rem;
+    }
+    .spec-card {
+      background: #ffffff;
+      box-shadow: 5px 5px 25px rgba(0, 0, 0, 0.08);
+      border-radius: 5px;
+      border-top: 8px solid #f1ae13;
+      @media screen and (max-width: 900px) {
+        border-top: 5px solid #f1ae13;
+      }
+      .spec-card-head {
+        width: 80%;
+        border-radius: 8px;
+        padding: 0.5rem 1rem;
+        margin: 0 auto;
+        margin-top: -31px;
+        background: rgba(255, 255, 255);
+        box-shadow: rgba(0, 0, 0,0.08) 5px 5px 25px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 0.5em;
+        .spec-card-title {
+          color: #7e7e7e;
+          font-size: 1.2em;
+          font-weight: bold;
+          margin: .2em;
+        }
+      }
+
+      .spec-card-body {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        padding: 1.5rem 3rem;
+        gap: 1.5rem;
+        line-height: 25px;
+        @media screen and (max-width: 900px) {
+          padding: 1.5em .6em;
+          line-height: 18px;
+        }
+        .spec-card-body-content {
+          .spec-card-body-subtitle {
+            color: #f1ae13;
+            font-weight: bold;
+            text-transform: uppercase;
+            margin-bottom: 0.5rem;
+            @media screen and (max-width: 900px) {
+              font-size: 0.8em;
+            }
+          }
+          .spec-card-body-desc {
+            color: #2f2f2f;
+            font-size: 16px;
+            margin-bottom: 1.5rem;
+            @media screen and (max-width: 900px) {
+              font-size: 12px;
+            }
+          }
+          .spec-card-body-desc-content {
+            
+            color: #1344f1;
+            font-size: 1rem;
+            text-decoration-line: underline;
+            font-weight: 600;
+            cursor: pointer;
+            @media screen and (max-width: 900px) {
+              font-size: 0.9em;
+            }
+          }
+          .spec-card-body-desc-desktop-content {
+
+            color: #2f2f2f;
+            font-size: 1rem;
+            text-align: center;
+            margin-bottom: 1.5rem;
+            cursor: pointer;
+            @media screen and (max-width: 900px) {
+              font-size: 0.8em;
+            }
+          }
+          .px-2{
+            padding: 0 2em;
+          }
+          .spec-card-body-line {
+            width: 30%;
+            margin: 0 auto;
+            border-bottom: 1px solid #f1ae13;
+          }
+          .spec-card-body-click {
+            text-decoration-line: underline;
+            color: #1344f1;
+            font-size: 1rem;
+            margin-top: 1rem;
+            font-weight: 600;
+            cursor: pointer;
+            @media screen and (max-width: 900px) {
+              font-size: 0.9em;
+            }
+          }
+        }
+      }
+    }
+  }
+  .spec-mask {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.37);
+    z-index: 50;
+    transition: 0.7s;
+  }
+  .spec-modal {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    max-width: 68%;
+    padding: 2rem;
+    width: 100%;
+    z-index: 100;
+    transition: 0.5s ease-out;
+    background: #ffffff;
+    box-shadow: 4px 4px 25px rgba(0, 0, 0, 0.15);
+    border-radius: 10px;
+    max-height: 90%;
+    overflow-y: auto;
+    transform: translate(-50%, -50%);
+    @media screen and (max-width: 900px) {
+      max-height: 640px;
+      padding: 0.8rem;
+      width: 95%;
+      max-width: 95%;
+    }
+    .spec-modal-img {
+      position: relative;
+    }
+    .spec-modal-cross {
+      position: absolute;
+      top: 1.5rem;
+      right: 1.8rem;
+      width: 1.2rem;
+      cursor: pointer;
+    }
+  }
+}

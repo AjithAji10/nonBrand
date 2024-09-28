@@ -1,0 +1,516 @@
+.mlp-main-curriculum {
+  padding-bottom: 3rem;
+  color: #7e7e7e;
+  @media screen and (max-width: 900px) {
+    padding-bottom: 2em;
+  }
+
+  .header-container{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+
+  }
+    .underline{
+      @media screen and (max-width: 900px) {
+        width: 50%;
+      }
+    }
+
+  .divider{
+    padding-top: 2em;
+  }
+
+  .curriculum-container {
+    margin: 0 auto;
+    padding: 3rem 0rem;
+    text-align: center;
+    @media screen and (max-width: 900px) {
+      padding: 0;
+    }
+  
+
+   .mlp-head{
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 37.3px;
+    max-width: 783px;
+    margin-bottom: .5em;
+
+    @media screen and (max-width: 900px) {
+      font-size: 20px;
+      font-weight: 700;
+      line-height: 26.6px;
+    }
+  }
+}
+.placement-drive{
+  background: rgba(241,174,19, .15) !important;
+}
+
+  .curriculum-container .curriculum-description {
+    margin: 2em auto;
+    max-width: 1036px !important;
+    line-height: 26px;
+    font-size: 16px;
+    font-weight: 500;
+    text-align: center;
+    @media screen and (max-width: 900px) {
+      line-height: 16.8px;
+    font-size: 12px;
+    font-weight: 500;
+    padding: 0 0.1em;
+    }
+
+    span {
+      display: block;
+      font-weight: 700;
+    }
+
+    .yellow-desc {
+      color: #f1ae13;
+      font-weight: 500;
+    }
+  }
+
+  .curriculum-container .curriculum-weeks {
+    max-width: 960px;
+    @media screen and (max-width: 900px) {
+      margin: 0 0em;
+    }
+    .weeks-head {
+      color: #7E7E7E;
+      font-weight: 700;
+      padding: 0.5em 2em;
+      display: flex;
+      justify-content: center;
+      max-width: 25em;
+      margin: 1em auto;
+      @media screen and (max-width: 900px) {
+        font-size: 0.8em;
+      }
+    }
+    .cur-tab-head {
+      display: flex;
+      justify-content: space-around;
+      padding: 1em;
+      gap: 3rem;
+      margin-bottom: 1rem;
+      @media screen and (max-width: 900px) {
+        gap: 1.5rem;
+        margin-bottom: 0rem;
+      }
+
+      .cur-tab-head-name {
+        width: 50%;
+        font-weight: 800;
+        cursor: pointer;
+        padding: 0.8em 3em;
+        border-radius: 5px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: white;
+        border: 1px solid #ffb800;
+        color: #7e7e7e;
+        @media screen and (max-width: 800px) {
+          padding: 0.8em;
+          font-size: 0.7em;
+        }
+      }
+
+      .active-tab {
+        color: white;
+        background-color: #ffb800;
+
+        box-shadow: 5px 5px 30px rgba(0, 0, 0, 0.16);
+      }
+    }
+    .weeks-img {
+      max-width: 50em;
+      margin: 2em auto;
+    }
+    .mlp-main-curriculum-table,
+    tr,
+    td,
+    th {
+      border: 1px solid #e5e5e5;
+      border-collapse: collapse;
+      text-align: left;
+      padding: 0.7rem 1rem;
+      font-size: 15px;
+      background: white;
+      @media screen and (max-width: 900px) {
+        padding: 0.3rem 0.3rem;
+        font-size: 9px;
+      }
+    }
+
+  
+.mlp-yellow-bg{
+  font-size: 26px !important;
+  font-weight: 800 !important;
+  line-height: 33.8px;
+  margin: 0;
+  padding: 0 !important;
+  @media screen and (max-width: 900px) {
+    font-size: 12px !important;
+    line-height: 15.6px;
+  }
+}
+    .mlp-main-curriculum-table{
+     
+      .bg-yellow {
+        background-color: #f1ae13;
+        color: white;
+        border: 1px solid #f1ae13;
+        text-align: center;
+        font-size: 26px !important;
+        font-weight: 800 !important;
+        line-height: 33.8px;
+        margin: 0;
+        padding: 0 !important;
+        max-width: 28px;
+        @media screen and (max-width: 900px) {
+          font-size: 11px !important;
+          line-height: 15.6px;
+        }
+      }
+      .text-yellow {
+        background-color: white;
+        color: #f1ae13;
+      }
+      .br-bt-none {
+        border-bottom: 0px solid white;
+      }
+      .bg-light-yellow {
+        background: rgba(241, 174, 19, 0.2);
+      }
+      .text-center {
+        text-align: center;
+      }
+      .v-align-top {
+        vertical-align: top;
+      }
+      h3,
+      h4 {
+        font-size: 1.1em;
+        display: inline;
+        @media screen and (max-width: 900px) {
+          font-size: 1em;
+        }
+      }
+   
+      .text-h5{
+        font-size: 15px;
+        font-weight: 500;
+        line-height: 24px;
+        @media screen and (max-width: 900px) {
+          font-size: 9px;
+          line-height: 11px;
+        }
+      }
+      b {
+        font-size: 0.95em;
+      }
+    }
+  }
+}
+
+.text-h3 {
+  font-size: 16px !important;
+  font-weight: bold;
+  @media screen and (max-width: 900px) {
+    font-size: 10px !important;
+    padding: 0;
+  }
+}
+.text-h4 {
+  font-size: 16px;
+  display: inline;
+  font-weight: bold;
+  margin: 1em 0;
+  line-height: 25px;
+  text-transform: uppercase !important;
+  @media screen and (max-width: 900px) {
+    font-size: 10px !important;
+    line-height: 12px;
+    margin-top: 1em;
+    padding: 0.5em 0;
+  }
+}
+
+@media (max-width: 800px) {
+  .wk-sec {
+    font-size: 0.7em !important;
+  }
+}
+
+@media (max-width: 800px) {
+  .week-number {
+    font-size: 1em !important;
+  }
+}
+
+.week-head {
+  @media screen and (max-width: 900px) {
+    font-size: 0.85em;
+  }
+}
+
+.week-title {
+  @media screen and (max-width: 900px) {
+    font-size: 0.8em;
+  }
+}
+
+h3 {
+  display: inline;
+  font-size: 1em;
+}
+
+.typical-day {
+  margin: 8em auto;
+  background: #f5f5f5;
+  height: 470px;
+  padding: 0 5em;
+  @media (max-width: 900px) {
+    height: auto;
+    padding: 1rem;
+    margin: 2rem 0rem;
+    display: block !important;
+
+  }
+
+
+  .curriculum-container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 0px;
+    float: left;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    @media (max-width: 800px) {
+      float: none;
+      flex-direction: column;
+    }
+    position: relative;
+    .typical-day-img {
+      max-width: 80%;
+      margin: 2em auto;
+      box-shadow: 4px 4px 25px rgba(0, 0, 0, 0.015);
+      border-radius: 10px;
+      background: white;
+      padding: 2.2rem;
+      margin-top: 0px;
+      transform: translateX(-50%);
+      left: 25vw;
+      position: absolute;
+      top: -60px;
+      width: 60%;
+      @media (max-width: 1200px) {
+        // width: 80%;
+      }
+      @media (max-width: 800px) {
+        padding: 1.2rem;
+        width: 100%;
+        max-width: 100%;
+        left: 50%;
+      }
+      .type-day-title {
+        font-weight: bold;
+        font-size: 1.8em;
+        text-align: center;
+        // text-transform: uppercase;
+        color: #7e7e7e;
+        @media (max-width: 800px) {
+          margin-top: 0.5rem;
+          font-size: 1.2em;
+        }
+      }
+
+      .type-day-desc {
+        font-size: 16px;
+        text-align: center;
+        line-height: 21.3px;
+        color: #7e7e7e;
+        margin-top: 1.2rem;
+        @media (max-width: 800px) {
+          margin-top: 1rem;
+          font-size: 0.7em;
+        }
+      }
+      .type-day-devider {
+        width: 60%;
+        margin: 18px auto;
+        border-bottom: 1px solid #e5e5e5;
+      }
+      .type-day-schedule {
+        .type-day-content {
+          display: flex;
+          justify-content: center;
+          margin-bottom: 1.1rem;
+          @media (max-width: 800px) {
+            margin-bottom: 0.8rem;
+          }
+          .type-day-time {
+            font-weight: bold;
+            font-size: 1em;
+            text-align: right;
+            color: #f1ae13;
+            width: 25%;
+            @media (max-width: 800px) {
+              font-size: 0.7em;
+              width: 30%;
+            }
+          }
+          .type-day-routine {
+            font-size: 1em;
+            text-align: left;
+            width: 50%;
+            margin-left: 5%;
+            @media (max-width: 800px) {
+              font-size: 0.7em;
+              width: 70%;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+.accordion-content > li,p{
+  font-weight: 400;
+  color: #7E7E7E;
+  text-align: left;
+  font-size: 16px;
+  @media (max-width:800px) {
+    font-size: 12px;
+    line-height: 20px;
+  }
+}
+.bg-white{
+  background-color: white !important;
+  border-radius: 20px !important;
+}
+
+.does-not-work {
+  width: 336px;
+  border-radius: 0px;
+  position: absolute;
+  right: 10vw;
+  margin-top: 90px;
+  @media (max-width:800px) {
+    width: 341px;
+    //display: none;
+    height: unset;
+    
+    position: relative;
+    right: unset;
+    bottom: top;
+    top: 92%;
+    left: unset;
+    margin: 0px auto;
+  }
+  .bg-none{
+    background-color: white;
+  }
+  .does-not-work__content{
+    color: #7e7e7e;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 25px;
+    border: none;
+    @media (max-width:800px) {
+    text-align: left;
+    }
+    li,p{
+      max-width: 230px;
+      font-size: 14px;
+      margin-top: 1em;
+      margin-bottom: -1em;
+      color: #7E7E7E;
+      font-weight: 700;
+    }
+  }
+
+  .does-not-work__content button{
+      
+    margin: 1em 0;
+    color: #f1ae13;
+    border: 6px solid #f1ae13;
+    border-radius: 100px;
+    padding: 1em 2em;
+    background-color: white;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 21.3px;
+    text-decoration: none;
+    box-shadow: 0px 8px 28px 0px #00000033;
+
+    @media (max-width:800px) {
+      font-size: 14px;
+      line-height: 18.7px;
+      border: 4px solid #f1ae13;
+      padding: .5em .7em;
+      box-shadow: 0px 12px 16px 0px #00000029;
+    }
+  }
+
+  &__content {
+    font-size: 16px;
+    font-weight: 700;
+    color: rgb(92, 54, 54);
+    padding: 32px 20px;
+    text-align: center;
+
+    line-height: 21.34px;
+
+    @media (max-width:800px) {
+      font-size: 16px;
+      font-weight: 700;
+      padding: 32px 20px;
+    }
+
+    &__link {
+      color: #1344F1;
+      text-decoration: underline;
+    }
+  }
+}
+
+
+
+.curriculum-containers{
+  @media screen and (max-width: 900px) {
+    margin-top: -3.4em !important;
+    width: 100% !important;
+
+  }
+}
+
+.bg-white{
+  @media screen and (max-width: 900px) {
+    padding: 1em !important;
+  }
+}
+.m-width{
+  @media (min-width:800px) {
+  padding: 0 2.5em;
+  }
+  span{
+    display: block;
+    @media (max-width:800px) {
+      display: inline;
+      padding: 0;
+    }
+  }
+}
+

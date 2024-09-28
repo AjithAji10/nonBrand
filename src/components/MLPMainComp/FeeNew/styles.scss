@@ -1,0 +1,382 @@
+.csm-main-fee {
+  margin-top: 0em;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  .mlp-fee-header {
+    margin-bottom: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+.main-header{
+    font-size: 1.875rem;
+    color: #7e7e7e;
+    font-weight: 600;
+    @media screen and (max-width: 900px) {
+        font-size: 1.25em;
+    }
+}
+.mlp-sub-header {
+    font-size: 1.125em;
+    text-align: center !important;
+    margin-bottom: 5px;
+    color: #F1AE13 !important;
+    font-weight: 600;
+    @media screen and (max-width: 900px) {
+      font-size: 0.75em;
+    }
+}
+.more-info {
+    font-size: 1.125em;
+    color: #7e7e7e;
+    @media screen and (max-width: 900px) {
+      display: block !important;
+      font-size: 0.75em;
+    }
+}
+
+  @media screen and (max-width: 800px) {
+    margin-top: -0.4em !important;
+  }
+  .fee-range-slider {
+    *{
+      font-family: Plus Jakarta Sans !important;
+    }
+    box-shadow: none !important;
+    margin: 0;
+    .fee-range-number {
+      max-width: 46em !important;
+      .number1,.number2 {
+        @media screen and (max-width: 800px) {
+          font-size: 14px;
+          margin-top: -5px;
+          margin-bottom: 1em;
+        }
+      }
+    }
+    .fee-range-salary {
+      @media screen and (max-width: 800px) {
+        font-size: 12px;
+        span {
+          font-size: 14px;
+        }
+      }
+    }
+  }
+  .fee-header {
+    color: #505050;
+    text-align: center;
+    font-family: Plus Jakarta Sans !important;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 130.7%; /* 41.824px */
+    @media screen and (max-width: 800px) {
+      font-size: 24px;
+      width: 234px;
+    }
+  }
+  .csm-fee-new-underline {
+    width: 12%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 2em;
+    margin-top: 0.5em;
+    @media screen and (max-width: 800px) {
+      margin-top: 0.5em;
+      width: 179px !important;
+    }
+  }
+  .fees {
+    width: 100%;
+    .ribbon-mlp {
+      margin-top: 5em;  
+      transform: scale(1.48);
+      @media screen and (max-width: 800px) {
+        transform: scale(1.5);
+        margin-top: 3em;    
+        height: 127px;    
+      }
+    }
+    .fee-container {
+      width: 55%;
+      max-width: 737px;
+      border-radius: 40px;
+      background: #fff;
+      box-shadow: 0px 4px 35px 0px rgba(0, 0, 0, 0.17);
+      padding: 2em;
+      @media screen and (max-width: 800px) {
+        padding: 1.2em 0.8em;
+        width: 76%;      
+      }
+      .sub-head {
+        margin-top: 0em;
+        color: #666;
+        font-family: Plus Jakarta Sans !important;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 800;
+        line-height: 180%; /* 72px */
+        @media screen and (max-width: 800px) {
+        font-size: 16px;
+        }
+      }
+      .emi-starting {
+      
+        button {
+          border: none;
+          background: none;
+          color: #f1ae13;
+          text-align: center;
+          font-family: Plus Jakarta Sans !important;
+          font-size: 32px;
+          font-style: normal;
+          font-weight: 600;
+          line-height: 133.4%; /* 42.688px */
+          text-decoration-line: underline;
+          margin-bottom: 0.5em;
+          cursor: pointer;
+          @media screen and (max-width: 800px) {
+            font-size: 16px;
+          }
+        }
+      }
+    }
+    .fee-sub-title {
+      //font-family: Plus Jakarta Sans !important;
+      @media screen and (max-width: 800px) {
+        color: #666;
+      font-size: 14px;
+      margin-top: 0.5em;
+      }
+    }
+    .fee-range-head {
+      color: #666;
+      text-align: center;
+      font-family: Plus Jakarta Sans !important;
+      font-size: 22px;
+      font-style: normal;
+      font-weight: 700;
+      line-height: 133.4%; /* 29.348px */
+      @media screen and (max-width: 800px) {
+        font-size: 14px;      
+      }
+    }
+    .salary-text {
+      color: #f1ae13;
+      text-align: center;
+      font-family: Plus Jakarta Sans !important;
+      font-size: 20px;
+      font-style: normal;
+      font-weight: 700;
+      line-height: 133.4%; /* 26.68px */
+      @media screen and (max-width: 800px) {
+        font-size: 14px;      
+      }
+    }
+    .fee-range-total {
+      color: #666;
+      text-align: center;
+      font-family: Plus Jakarta Sans !important;
+      font-size: 18px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 133.4%; /* 24.012px */
+      margin-top: 1.3em;
+      @media screen and (max-width: 800px) {
+        font-size: 16px;      
+        display: block;
+      }
+    }
+  }
+  .ribbontext {
+    position: absolute;
+    transform: translate(2em, 5em);
+    @media screen and (max-width: 1200px) {
+      transform: translate(-1em, 4.4em);
+      
+    }
+    @media screen and (max-width: 800px) {
+      transform: translate(-1em, 2.2em);
+    }
+    .flex {
+      flex-wrap: nowrap;
+    }
+    z-index: 4;
+    .title {
+      color: #fff;
+      font-family: Plus Jakarta Sans !important;
+      font-size: 26px;
+      font-style: normal;
+      font-weight: 800;
+      line-height: 120%; /* 31.2px */
+      @media screen and (max-width: 1200px) {
+        font-size: 22px;
+      }
+      @media screen and (max-width: 1200px) {
+        font-size: 20px;
+      }
+      @media screen and (max-width: 800px) {
+        font-size: 16px;
+        width: 80%;
+        text-align: left;
+      }
+    }
+    .desc {
+      color: #fff;
+      text-align: center;
+      font-family: Plus Jakarta Sans !important;
+      font-size: 20px;
+      font-style: normal;
+      font-weight: 600;
+      line-height: 143.9%; /* 28.78px */
+      @media screen and (max-width: 1200px) {
+        font-size: 16px;
+      }
+      @media screen and (max-width: 800px) {
+        font-size: 14px;
+        width: 75%;
+        margin-top: 1em;
+        text-align: left;
+      }
+    }
+  }
+  .ribbonImg {
+    width: 8%;
+    margin-right: 1em;
+    @media screen and (max-width: 800px) {
+      width: 13%;
+      max-height: 4em;
+      margin-top: 1em;
+      margin-right: 8%;
+    }
+  }
+}
+
+#csm-emi-dialog[open] {
+  animation: dialogFadeIn 0.2s ease-in;
+}
+
+.csm-main-fee > #csm-emi-dialog {
+  width: 100%;
+  //height: 667px;
+    max-width: 820px;
+    // height: 500px;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    border: none;
+    border-radius: 10px;
+    padding: 3rem;
+    @media screen and (max-width: 900px) {
+      padding: 0.8rem;
+      width: 95%;
+      padding-bottom: 2em;
+    }
+    h3 {
+      color: #404040;
+      font-family: Plus Jakarta Sans !important;
+      font-size: 24px;
+      font-style: normal;
+      font-weight: 700;
+      line-height: 133.4%; /* 32.016px */
+      @media screen and (max-width: 900px) {
+        font-size: 16px;
+      }
+    }
+    th {
+      color: #404040;
+      text-align: center;
+      font-family: Plus Jakarta Sans !important;
+      font-size: 16px;
+      font-style: normal;
+      font-weight: 700;
+      line-height: 133.4%; /* 21.344px */
+      @media screen and (max-width: 900px) {
+        font-size: 14px;
+      }
+    }
+
+    td {
+      color: #404040;
+      text-align: center;
+      font-family: Plus Jakarta Sans !important;
+      font-size: 16px;
+      font-style: normal;
+      font-weight: 500;
+      line-height: 133.4%;
+      @media screen and (max-width: 900px) {
+        font-size: 14px;
+      }
+    }
+
+    tbody tr:nth-child(5) td,
+    tbody tr:nth-child(6) td,
+    tbody tr:nth-child(7) td,
+    tbody tr:nth-child(8) td {
+      background: #F3F9FF;
+    }
+
+    p > b {
+      color: #404040;
+      font-family: Plus Jakarta Sans !important;
+      font-size: 24px;
+      font-style: normal;
+      font-weight: 700;
+      line-height: 133.4%; /* 32.016px */
+    }
+    p {
+      margin-bottom: 1em;
+    }
+    li {
+      color: #666;
+      font-family: Montserrat;
+      font-size: 16px;
+      font-style: normal;
+      font-weight: 500;
+      line-height: 143.9%; /* 23.024px */
+    }
+    .dialog-header {
+        display: flex;
+        justify-content: space-between;
+    }
+    .emi-terms-eligibe-main {
+        padding: 0 1rem;
+        @media screen and (max-width: 900px) {
+          font-size: 0.8rem;
+        }
+        b {
+          @media screen and (max-width: 900px) {
+            font-size: 16px;
+          }
+        }
+        li {
+          @media screen and (max-width: 900px) {
+            font-size: 14px;
+          }
+        }
+    }
+
+    .dialog-toggle-btn {
+        border: none;
+        background: inherit;
+        // color: #F1AE13;
+        font-weight: 600;
+        font-size: 1.25rem;
+        cursor: pointer;
+    }
+    .dialog-toggle-btn:hover {
+        transform: scale(1.25);
+        color: #F1AE13;
+    }
+}
+
+
+.mright-2 {
+  margin-left: 2.2em;
+}

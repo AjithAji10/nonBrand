@@ -1,0 +1,197 @@
+.mlp-faq-main {
+  background: #ffffff;
+  width: 85%;
+  max-width: 1200px;
+  margin: 5em auto;
+  text-align: center;
+  color: #7e7e7e;
+  @media screen and (max-width: 900px) {
+    width: 100%;
+    margin-top: 0em;
+    padding: 1em;
+  }
+a{
+  color: blue;
+  text-decoration: underline;
+  font-size: 16px;
+  @media screen and (max-width: 900px) {
+    font-size: 12.5px;
+
+  }
+}
+
+li {
+  margin-left: 1em;
+}
+.slick-arrow{
+  @media screen and (max-width: 900px) {
+    border: 1px solid red;
+  }
+}
+
+  .mlp-faq-title{
+    @media screen and (max-width: 900px) {
+      font-size: 22px !important;
+      font-weight: 26px;
+      color: #000;
+    }
+  }
+  .list-container{
+    @media screen and (max-width: 900px) {
+      display: flex;
+      // flex-wrap: wrap;
+      overflow: scroll;
+      scrollbar-width: 1px !important;
+      
+    }
+  }
+  .list-item {
+    text-align: left;
+    padding: 1em 4em 1em 1em;
+    margin-right: 2em;
+    border-bottom: 1px solid #E5E5E5;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 32px;
+    color: #606060;
+    width: 250px;
+    cursor: pointer;
+
+    @media screen and (max-width: 900px) {
+      padding: 1em 1.5em;
+      font-size: 11px;
+      max-width: 120px;
+      margin-right: 1em;
+      border-bottom: none;
+      border-left: 1px solid #E5E5E5;
+      text-align: center;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      line-height: 14px;
+    }
+  }
+
+  .selected{
+    border-left: 6px solid #F1AE13;
+    box-shadow: 5px 5px 25px 0px #00000014;
+    border-bottom: none;
+    @media screen and (max-width: 900px) {
+      border-left: none;
+      border-bottom: 2px solid #F1AE13;
+      min-width: 120px;
+      padding: 1em 3em;
+    }
+  }
+
+  .faq-content{
+   display: flex;
+   @media screen and (max-width: 900px) {
+     display: block;
+
+   }
+  }
+  .mlp-faq-title {
+    font-size: 1.7em;
+    font-weight: bold;
+    margin-bottom: 2.5em;
+    @media screen and (max-width: 900px) {
+      margin-bottom: 1.5em;
+    }
+  }
+
+  .mlp-faq .custom-accordion {
+    text-align: initial;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 32px;
+    color: #606060 !important;
+    @keyframes fadein {
+      from {
+        opacity: 0;
+      }
+      to {
+        opacity: 1;
+      }
+    }
+
+    .accordion-section {
+      margin: 2em auto !important;
+      color: #606060;
+      font-size: 16px;
+      font-weight: 500;
+      p{
+        font-weight: 400;
+        color:#7E7E7E;
+        text-align: left;
+      }
+
+      .accordion-head {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        transition: 0.4s;
+        cursor: pointer;
+
+        .accordion-title {
+          font-weight: bold;
+          font-size: 0.9em;
+          width: 90%;
+        }
+        .accordion-title p{
+          font-weight: bold;
+          font-size: 0.9em;
+          width: 90%;
+          color: #606060 !important;
+          font-size: 16px !important;
+          @media screen and (max-width: 900px) {
+            font-size: 12px !important;
+          }
+        }
+
+    
+        .arrow-right {
+          width: 0;
+          height: 0;
+          border-top: 10px solid transparent;
+          border-bottom: 10px solid transparent;
+          border-left: 10px solid #243e60;
+        }
+
+        .arrow-down {
+          width: 0;
+          height: 0;
+          border-left: 10px solid transparent;
+          border-right: 10px solid transparent;
+          border-top: 10px solid #243e60;
+        }
+      }
+
+      .accordion-content {
+        padding: 2em 1em;
+        font-size: 1em;
+        line-height: 25px;
+        animation: fadein 2s;
+        color: #7E7E7E !important;
+        overflow: hidden;
+        @media screen and (max-width: 900px) {
+          font-size: 12px;
+          line-height: 17px;
+        }
+      }
+    }
+  }
+}
+#changemakers {
+  font-size: 16px !important;
+  @media screen and (max-width: 900px) {
+    font-size: 12px !important;
+  }
+}
+.mlp-faq{
+  text-align: initial;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 32px;
+  //color: red !important;
+}

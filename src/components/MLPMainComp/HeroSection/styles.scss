@@ -1,0 +1,190 @@
+.mlp-hero-container {
+  display: flex;
+  flex-direction: column;
+  row-gap: 2rem;
+  @media screen and (max-width: 600px) {
+    row-gap: 0.76rem;
+    margin-top: 1.5em;
+  }
+  .page-logo {
+    position: relative;
+    width: 365px;
+    height: 130px;
+    margin-top: 2em;
+    @media screen and (max-width: 600px) {
+      width: 80%;
+      max-width: 240px;
+      height: auto;
+      margin: auto;
+      transform: translateX(-10px);
+    }
+  }
+ 
+  .hero-main-content {
+    display: flex;
+    flex-direction: column;
+    row-gap: 1.25rem;
+    @media screen and (max-width: 600px) {
+      width: 80%;
+      margin: auto;
+     // align-items: center;
+    }
+    .sub-title {
+      display: flex;
+      //justify-content: space-between;
+      font-family: "Plus Jakarta Sans", sans-serif !important;
+      margin: 0;
+      .one {
+        font-size: 64px;
+        line-height: 70px;
+        font-weight: 700;
+        color: #f1ae13;
+        font-family: "Plus Jakarta Sans", sans-serif !important;
+        @media screen and (max-width: 900px) {
+          font-size: 36px;
+          line-height: 45px;
+        }
+      }
+      .desc {
+        font-size: 22px;
+        font-weight: 600;
+        line-height: 30px;
+        margin-left: 1em;
+        display: flex;
+        align-items: center;
+        color: #505050;
+        font-family: "Plus Jakarta Sans", sans-serif !important;
+        @media screen and (max-width: 900px) {
+          font-size: 16px;
+          line-height: 20px;
+          font-weight: 600;
+          line-height: 114%;
+          text-align: justify;
+        }
+      }
+
+      @media screen and (max-width: 900px) {
+        margin: 1em 0;
+      }
+    }
+    .hero-header {
+      width: fit-content;
+      position: relative;
+      font-size: 1.75rem;
+      font-weight: 700;
+      color: #7E7E7E;
+      @media screen and (max-width: 600px) {
+        font-size: 1.125rem;
+        text-align: center;
+      }
+      .yellow-underline-img {
+        position: absolute;
+        right: 0;
+        bottom: -0.75rem;
+        width: 140px;
+        @media screen and (max-width: 600px) {
+          width: 85px;
+        }
+      }
+    }
+    .item-list-container {
+      display: flex;
+      flex-direction: column;
+      row-gap: 1rem;
+      margin-left: calc(28px + 1rem);
+      .list-item {
+        position: relative;
+        font-size: 1rem;
+        font-weight: 500;
+        color: #505050;
+        font-family: Montserrat !important;
+        @media screen and (max-width: 600px) {
+          font-size: 0.875rem;
+        }
+      }
+      .list-item::after {
+        content: "";
+        background-image: url(../../../images/mlp-part-time/tick-img.png);
+        background-repeat: no-repeat;
+        background-size: contain;
+        position: absolute;
+        left: 0;
+        top: 0;
+        transform: translate(calc(-100% - 1rem), -3px);
+        width: 28px;
+        height: 28px;
+        @media screen and (max-width: 600px) {
+          margin-top: 8px;
+        }
+      }
+    }
+  }
+  .recruiter-container {
+    display: flex;
+    flex-direction: column;
+    row-gap: 1rem;
+    margin-top: 0.6em;
+    .recruiter-header-desk {
+      font-size: 1rem;
+      font-weight: 600;
+      color: #505050;
+      @media screen and (max-width: 600px) {
+        display: none;
+      }
+    }
+    .recruiter-header-mob {
+      font-size: 1rem;
+      font-weight: 600;
+      color: #4E4E4E;
+      display: none;
+      font-family: Plus Jakarta Sans !important;
+      @media screen and (max-width: 600px) {
+        display: initial;
+        text-align: center;
+      }
+    }
+    .mlp-recruiters {
+      width: 100%;
+      min-height: 82px;
+      display: grid;
+      align-items: center;
+      border-radius: 1rem;
+      padding: 0.75rem;
+      box-shadow: 4px 4px 25px 0px rgba(0, 0, 0, 0.10);
+      @media screen and (max-width: 600px) {
+        height: auto;
+        min-height: auto;
+      }
+      .before-hover,
+      .on-hover {
+        display: flex;
+        justify-content: space-around;
+      }
+      .on-hover {
+        display: none;
+      }
+      &:hover {
+        .before-hover {
+          display: none;
+        }
+        .on-hover {
+          display: flex;
+        }
+      }
+      .company-img {
+        width: 70px;
+        max-height: 50px;
+        object-fit: contain;
+        @media screen and (max-width: 600px) {
+          width: 50px;
+          max-height: 40px;
+        }
+      }
+      .mensa {
+        transform: scale(1.4);
+        margin-top: -7px;
+        object-fit: contain;
+      }
+    }
+  }
+}

@@ -1,0 +1,272 @@
+.lp-alumni {
+  width: 100%;
+  padding-top: 4em;
+
+  @media screen and (max-width: 800px) {
+    padding: 0;
+    max-width: 100%;
+  }
+  .lp-alumni-hero {
+    margin-left: 6em;
+    margin-bottom: 2em;
+    @media screen and (max-width: 800px) {
+      margin-bottom: 0em;
+      margin-top: 4em;
+      margin-left: 2em;
+    }
+  }
+
+  .l-alumni-head {
+    color: #505050;
+    font-family: Plus Jakarta Sans !important;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 143%;
+    @media screen and (max-width: 800px) {
+      font-size: 22px;
+      width: 265px;
+      padding: 0;
+    }
+  }
+  .lp-a-underline {
+    height: 8px;
+    width: 592px;
+    @media screen and (max-width: 800px) {
+      width: 203px;
+      padding: 0;
+      height: 7.4px;
+    }
+  }
+
+  .l-a-desc {
+    color: #505050;
+    font-family: Plus Jakarta Sans !important;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 143%;
+    margin-top: 0.5em;
+    @media screen and (max-width: 800px) {
+      font-weight: 400;
+      padding: 0;
+      font-size: 14px;
+      width: 295px;
+    }
+    .i-desc-ylo {
+      font-weight: 600;
+      color: #f1ae13;
+      font-family: Plus Jakarta Sans !important;
+      font-size: 16px;
+      @media screen and (max-width: 800px) {
+        font-size: 14px;
+      }
+    }
+  }
+  .l-a-check {
+    font-weight: 600;
+    color: #505050;
+    font-family: Plus Jakarta Sans !important;
+    font-size: 20px;
+    line-height: 133%;
+    margin-top: 1em;
+    @media screen and (max-width: 800px) {
+      font-size: 16px;
+    }
+    .l-a-check-ylo {
+      line-height: 133%;
+      font-weight: 600;
+      color: #f1ae13;
+      font-family: Plus Jakarta Sans !important;
+      font-size: 18px;
+      @media screen and (max-width: 800px) {
+        font-size: 16px;
+        margin-bottom: 1em;
+      }
+    }
+  }
+  .l-a-sub-desc {
+    font-weight: 500;
+    color: #505050;
+    font-family: Plus Jakarta Sans !important;
+    font-size: 16px;
+    line-height: 163%;
+    margin-top: 0.4em;
+    @media screen and (max-width: 800px) {
+      display: none;
+    }
+    em {
+      font-weight: 400;
+      color: #505050;
+      font-family: Plus Jakarta Sans !important;
+      font-size: 16px;
+      line-height: 163%;
+    }
+  }
+  .l-a-container-flex {
+    width: 100%;
+    padding: 0em 10em;
+    display: flex;
+    justify-content: space-between;
+    @media screen and (max-width: 800px) {
+      flex-direction: column;
+      padding: 0;
+      margin-bottom: 1em;
+    }
+    .l-a-carousel-sec {
+      display: flex;
+      .l-a-main-img {
+        width: 220px;
+        height: 547px;
+        z-index: 3;
+        @media screen and (max-width: 800px) {
+          height: 450px;
+          width: 202px;
+          transform: translateX(-0.76em);
+        }
+      }
+      .csm-part-time {
+        max-width: 420px;
+        margin-top: -0.7em;
+        @media screen and (max-width: 800px) {
+          max-width: 228px;
+          margin-top:  0;
+          transform: translateX(-5em);
+        }
+        .slick-active button {
+          background-color: #404040;
+          color: #404040;
+        }
+        .l-a-slide-img {
+          width: 200px !important;
+          height: 450px;
+          @media screen and (max-width: 800px) {
+            width: 200px !important;
+            height: 420px;
+            transform: translate(1em,-3em);
+          }
+        }
+      }
+    }
+    .lp-page-slider .placement-slider .slick-dots {
+      width: 2em !important;
+      margin: 0 auto;
+      margin-top: -0.6em;
+      @media screen and (max-width: 800px) {
+        margin-top: -4.6em;
+        width: 5em !important;
+        transform: translate(-4em, 0em);
+      }
+    }
+    .lp-page-slider .placement-slider .slick-dots button {
+      width: 8px;
+      height: 8px;
+      @media screen and (max-width: 800px) {
+       font-size: 0.3em;
+      }
+    }
+    .lp-page-slider .placement-slider {
+      margin: 2em auto;
+    }
+    .l-a-carousel-sec {
+      width: 600px;
+      margin-top: -1em;
+      @media screen and (max-width: 800px) {
+        margin-top:  0;
+        width: 100%;
+        padding-left: 1.7em;
+      }
+    }
+    .l-a-text-sec {
+      width: 370px;
+      height: 470px;
+      @media screen and (max-width: 800px) {
+        height: auto;
+        width: 100%;
+        padding: 0 1.5em;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+      }
+      .l-a-t-head {
+        font-weight: 600;
+        color: #505050;
+        font-family: Plus Jakarta Sans !important;
+        font-size: 20px;
+        line-height: 133%;
+        margin-bottom: 1em;
+        @media screen and (max-width: 800px) {
+          font-size: 16px;
+          width: 300px;
+        }
+      }
+      .l-a-t-list {
+        list-style-position: inside;
+        list-style-type: none;
+        @media screen and (min-width: 800px) {
+          margin-left: 1.2em;
+          height: 387px;
+          display: flex;
+          flex-direction: column;
+          justify-content: space-between;
+        }
+      }
+      .l-a-t-list li {
+        font-weight: 500;
+        color: #505050;
+        font-family: Plus Jakarta Sans !important;
+        font-size: 16px;
+        line-height: 203%;
+        position: relative;
+        @media screen and (max-width: 800px) {
+          font-size: 12px;
+        }
+      }
+      .l-a-t-list li::before {
+        content: "";
+        position: absolute;
+        left: -20px; /* Position the bullet image */
+        top: 12px;
+        width: 8px; /* Set the width of the bullet image */
+        height: 12px;
+        background-image: url(../../../images/landingPageImages/bulletImg1.png); /* Replace with your image path */
+        background-size: contain;
+        background-repeat: no-repeat;
+      }
+    }
+  }
+  .l-a-slider-container {
+    background: url(../../../images/landingPageImages/projectsBgMob.png);
+    background-size: cover;
+    width: 100%;
+    padding-top: 2em;
+    @media screen and (min-width: 800px) {
+      min-height: 455px;
+      background: url(../../../images/landingPageImages/projectsBg.webp);
+      background-size: cover;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+   
+    .mlp-main-placements {
+      background: none;
+    }
+    .placement-slider .slick-dots button {
+      background-color: #d9d9d9;
+      color: #d9d9d9;
+    }
+    .placement-slider .slick-dots {
+      width: 50%;
+      justify-content: center;
+    }
+    .placement-slider .slick-dots .slick-active button {
+      background-color: #404040;
+      color: #404040;
+    }
+  }
+  .mlp-main-placements .placement-slider {
+    @media screen and (max-width: 800px) {
+      margin-bottom: 2em !important;
+    }
+  }
+}

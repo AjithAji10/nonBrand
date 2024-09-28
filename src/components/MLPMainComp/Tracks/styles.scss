@@ -1,0 +1,221 @@
+.mlp-course-main-trainers {
+ 
+
+  .slick-arrowCustom {
+    width: 5em;
+  }
+
+  .trainers-container {
+    width: 85%;
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+    @media screen and (max-width: 900px) {
+      width: 100%;
+    }
+  }
+
+  .will-be-training {
+    margin: 2em auto;
+    @media screen and (max-width: 900px) {
+      padding: 0.1em 0;
+      padding-top: 0em;
+      margin: 0;
+    }
+
+    .training-section-title {
+      display: block;
+      font-size: 30px;
+      font-weight: 800;
+      line-height: 46px;
+      margin-bottom: 1em;
+      color: #7E7E7E !important;
+      margin-top: 3em !important;
+      @media screen and (max-width: 900px) {
+        font-size: 24px;
+      font-weight: 700;
+      line-height: 32px;
+        color: #7E7E7E;
+        padding: 0 !important;
+      }
+    }
+
+    .training-section-subtitle {
+      margin: 0em auto;
+      max-width: 863px !important;
+      @media screen and (max-width: 900px) {
+        font-size: 0.9em;
+      }
+    }
+    .about-us-story-underline-img {
+      width: 214px;
+      position: absolute;
+      
+      margin-top: -1.2em;
+      left: 50%;
+      transform: translate(-50%, 0px);
+      
+        @media screen and (min-width: 800px) {
+          width: 256px;
+          position: absolute;
+         
+          margin-top: -1.1em;
+        }
+      
+    }
+
+    .trainers-slider {
+      margin: 3em auto;
+      max-width: 78em;
+      overflow: hidden;
+      @media screen and (max-width: 900px) {
+        margin-top: 0rem;
+      }
+
+      .type2-info{
+        justify-content: space-evenly;
+      }
+
+      .card-type5-section {
+        padding: 1.5em;
+        margin: 1em;
+        min-height: auto;
+        @media screen and (max-width: 900px) {
+          margin: 0 !important;
+          padding: 1.5em;
+          width: 300px ;
+        }
+      }
+
+      .type2-description1 {
+        flex: none;
+        max-height: min-content;
+        margin: 1em 0;
+      }
+
+      .trainers-note {
+        font-style: italic;
+        color: #243e60;
+      }
+    .name{
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 24px;
+    color: #F1AE13;
+    flex: none;
+      @media screen and (min-width: 900px) {
+        width: 200px;
+        margin: 0 2em;
+      }
+    }
+      .slick-slider {
+        position: relative;
+        .slick-arrow {
+          position: absolute;
+          bottom: -2em !important;
+          width: 44px;
+          height: 44px;
+          background: #fff;
+          border-radius: 50%;
+
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          cursor: pointer;
+          border: none;
+          //   color: transparent;
+          margin-bottom: 1em;
+          text-indent: 100%;
+          white-space: nowrap;
+          overflow: hidden;
+          z-index: 1;
+        }
+
+        .slick-prev {
+          left: 43%;
+          box-shadow: 4px 4px 4px rgba(0, 0, 0,0.15);
+          background-image: url('../../../images/common/btn-left.png');
+          background-repeat: no-repeat;
+          background-position: center;
+          @media screen and (max-width: 900px) {
+            left: 40%;
+          }
+          @media screen and (max-width: 520px) {
+            left: 30%;
+          }
+        }
+
+        .slick-next {
+          right: 43%;
+          box-shadow: -4px 4px 4px rgba(0, 0, 0,0.05);
+          background-image: url('../../../images/common/btn-right.png');
+          background-repeat: no-repeat;
+          background-position: center;
+          @media screen and (max-width: 900px) {
+            right: 40%;
+          }
+          @media screen and (max-width: 520px) {
+            right: 30%;
+          }
+        }
+      }
+
+      .trainer-card {
+        width: 15em !important;
+        margin-bottom: 5em;
+      }
+      .slick-track {
+        padding-top: 2em;
+        padding-bottom: 6em;
+
+        display: flex;
+        justify-content: center;
+        @media screen and (max-width: 900px) {
+          text-align: center;
+        }
+
+        .slick-slide > div {
+          height: 100%;
+        }
+      }
+    }
+  }
+
+  .slick-slide {
+    @media screen and (min-width: 900px) {
+    width: auto !important;
+    }
+  }
+
+  .alumni-working {
+    margin-top: 2em;
+    border-bottom: 1px solid #c4c4c4;
+    padding-top: 5em;
+    padding-bottom: 3em;
+    @media screen and (max-width: 900px) {
+      padding-top: 0em;
+    }
+    .alumni-section-title {
+      font-size: 1.7em;
+      font-weight: bold;
+      @media screen and (max-width: 900px) {
+        font-size: 1.4em;
+      }
+    }
+
+    .alumni-section-img {
+      max-width: 50em;
+      margin: 3em auto;
+      @media screen and (max-width: 900px) {
+        display: none;
+      }
+    }
+    .alumni-section-img-mb {
+      display: none;
+      margin-top: 3rem;
+      @media screen and (max-width: 900px) {
+        display: block;
+      }
+    }
+  }
+}

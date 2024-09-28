@@ -1,0 +1,170 @@
+.lp-tools {
+  width: 100%;
+  padding: 6em 0;
+  height: 690px;
+  background: linear-gradient(
+      to bottom,
+      rgba(241, 174, 19, 0.1) 0%,
+      rgba(241, 174, 19, 0) 465px
+    ),
+    #fff;
+  @media screen and (max-width: 800px) {
+    height: auto;
+    padding: 0;
+    max-width: 100%;
+    padding-top: 3em;
+    padding: 2em;
+  }
+  .lp-tools-hero {
+    margin-left: 6em;
+    margin-bottom: 3em;
+    @media screen and (max-width: 800px) {
+      margin-bottom: 2em;
+      margin-top: 1em;
+      margin-left: 0em;
+    }
+  }
+
+  .l-tools-head {
+    color: #505050;
+    font-family: Plus Jakarta Sans !important;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 143%;
+    @media screen and (max-width: 800px) {
+      font-size: 20px;
+      padding: 0;
+      width: 278px;
+    }
+  }
+
+  .lp-tools-underline {
+    height: 8px;
+    width: 292px;
+    @media screen and (max-width: 800px) {
+      width: 221px;
+      padding: 0;
+      height: 8px;
+    }
+  }
+
+  .l-tools-desc {
+    color: #505050;
+    font-family: Plus Jakarta Sans !important;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 143%;
+    margin-top: 0.5em;
+    @media screen and (max-width: 800px) {
+      margin-top: 1em;
+      padding: 0;
+      font-size: 14px;
+      line-height: 120%;
+      width: 292px;
+    }
+  }
+
+  .popupBtn {
+    width: 302px;
+    height: 46px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    font-family: Plus Jakarta Sans !important;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 143%;
+    border: none;
+    background: #f1ae13;
+    border-radius: 50px;
+    cursor: pointer;
+  }
+
+  .tools-used-container {
+    width: 90%;
+    margin: auto;
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: column;
+    mix-blend-mode: darken;
+    .mlp-tool {
+      display: flex;
+      justify-content: space-between;
+      width: 1250px;
+      margin-bottom: 3em;
+      @media screen and (max-width: 800px) {
+        width: 310px;
+        margin-bottom: 1.5em;
+      }
+    }
+    @media screen and (max-width: 768px) {
+      grid-template-columns: repeat(3, 1fr);
+      gap: 2rem;
+    }
+    .mlp-part-time-tool {
+      max-width: 183px;
+      max-height: 65px;
+      object-fit: contain;
+      object-position: center;
+      @media screen and (max-width: 768px) {
+        max-width: 83px;
+      max-height: 40px;
+      object-fit: contain;
+      object-position: center;
+      }
+      // @media screen and (max-width: 768px) {
+      //     max-width: ;
+      // }
+    }
+    .mlp-part-time-tool-sm {
+      max-width: 146px;
+      max-height: 30px;
+      object-fit: contain;
+      object-position: center;
+      align-self: center;
+      // @media screen and (max-width: 768px) {
+      //     max-width: ;
+      // }
+    }
+  }
+  .lp-tools-mob {
+    width: 310px;
+    height: 372px;
+    @media screen and (min-width: 800px) {
+      display: none;
+    }
+  }
+  .btn-container-full {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+  .lp-dmc-download-mob {
+    display: none;
+     @media screen and (max-width: 800px) {
+         font-family: Plus Jakarta Sans !important;
+         font-style: normal;
+         font-weight: 800;
+         color: white;
+         cursor: pointer;
+         display: flex;
+         align-items: center;
+         justify-content: center;
+         background: #f1ae13;
+         border-radius: 100px;
+         margin-top: 2.5em;
+         text-align: center;
+         border: none;
+         left: 0%;
+         position: relative;
+         width: 269px;
+         height: 34px;
+         font-size: 14px;
+         border-radius: 12px;
+         border: none;
+     }
+ }
+}

@@ -1,0 +1,189 @@
+.marketing-outcomes {
+  margin-top: 5em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  @media screen and (max-width: 800px) {
+    margin-top: 2em;
+  }
+.outcomes-sub{
+  color: #505050;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 149%;
+  font-family: Plus Jakarta Sans !important;
+  @media screen and (max-width: 800px) {
+    font-size: 24px;
+  }
+ }
+
+ .outcome-img {
+  width: 700px;
+  height: 130px;
+  margin: 1.5em 0;
+  @media screen and (max-width: 800px) {
+    display: none;
+  }
+ }
+ .CutImg-img {
+  position: absolute;
+  width: 700px;
+  height: 290px;
+  margin: 1.5em 0;
+  z-index: 2;
+  transform: translateY(7em);
+  @media screen and (max-width: 800px) {
+    display: none;
+  }
+ }
+.our-promise{
+  color: #f1ae13;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 149%;
+  font-family: Plus Jakarta Sans !important;
+  margin-top: 1em;
+  @media screen and (max-width: 800px) {
+    font-size: 20px;
+  }
+ }
+ .outcome-undeline {
+  width: 167px;
+  height: 11px;
+  @media screen and (max-width: 800px) {
+    width: 110px;
+    height: 9px;
+  }
+}
+.outcome-desc {
+  color: #505050;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 149%;
+  font-family: Plus Jakarta Sans !important;
+  @media screen and (max-width: 800px) {
+    font-size: 14px;
+    font-weight: 500;
+    text-align: center;
+    width: 254px;
+  }
+}
+.graph-image {
+  width: 785px;
+  height: auto;
+  margin-top: 2em;
+  @media screen and (max-width: 1400px) {
+    width: 355px;
+  }
+}
+.chanceOfHigh {
+  color: #505050;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 149%;
+  margin-top: 2.5em;
+  margin-bottom: 1em;
+  text-align: center;
+  font-family: Plus Jakarta Sans !important;
+  @media screen and (max-width: 800px) {
+    font-weight: 500;
+    font-size: 16px;
+    width: 290px;
+  }
+  .yellow-outcome {
+    color: #f1ae13;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 149%;
+    font-family: Plus Jakarta Sans !important;
+    @media screen and (max-width: 800px) {
+      font-weight: 700;
+      font-size: 16px;
+    }
+  }
+}
+
+.diary-image {
+  width: 702px;
+  height: 429px;
+  @media screen and (max-width: 800px) {
+    width: 360px;
+    height: 467px;
+
+  }
+}
+
+.pc-outcome-dots-right {
+  width: 210px;
+  height: 500px;
+  position: absolute;
+  right: 0;
+  transform: translateY(38em);
+  @media screen and (max-width: 800px) {
+      display: none;
+  }
+}
+.pc-outcome-dots-left {
+  width: 210px;
+  height: 530px;
+  position: absolute;
+  left: 0;
+  transform: translateY(48em);
+  @media screen and (max-width: 800px) {
+      display: none;
+  }
+ }
+}
+.note-from-founders {
+  margin-top: 2em;
+  width: 100%;
+  height: 660px;
+  @media screen and (min-width: 1400px) {
+    height: auto;
+  }
+
+  background: url(../../../images/basl/foundersImg.webp);
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  @media screen and (max-width: 800px) {
+    background: url(../../../images/basl/notesMobImg.png);
+    background-size: cover;
+    height: 860px;
+    width: 100%;
+    background-position: bottom;
+    justify-content: flex-start;
+  }
+  .header {
+    margin-bottom: 1.3em;
+    color: #505050;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 149%;
+    margin-top: 2em;
+    margin-bottom: 1em;
+    font-family: Plus Jakarta Sans !important;
+    margin-left: 2em;
+    @media screen and (max-width: 800px) {
+      font-size: 16px;
+      margin-top: 2.5em;
+    }
+  }
+  .notes {
+    margin-left: 2em;
+    width: 374px;
+    text-align: center;
+    color: #505050;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 140%;
+    margin-bottom: 2em;
+    font-family: Plus Jakarta Sans !important;
+    @media screen and (max-width: 800px) {
+      font-size: 13px;
+      width: 308px;
+    }
+  }
+}

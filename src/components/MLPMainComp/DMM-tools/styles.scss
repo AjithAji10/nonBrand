@@ -1,0 +1,130 @@
+.mlp-tools{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  //max-width: 1200px;
+  justify-content: center;
+  align-items: center;
+
+
+  .mlp-tools-head{
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 37.3px;
+    max-width: 700px;
+    color: #7e7e7e;
+    @media (max-width:800px) {
+      font-size: 24px;
+      font-weight: 700;
+      line-height: 32.6px;
+      text-align: center;
+      margin: .5em 1em ;
+    }
+  }
+
+  .mlp-tool-description{
+    text-align: center;
+    max-width: 920px;
+    margin-top: 1em;
+    @media (max-width:800px) {
+      font-size: 12px;
+      font-weight: 400;
+      line-height: 16.6px;
+      color: #7e7e7e;
+      margin: .5em 2em;
+    }
+  }
+
+  .btm-image{
+      max-width: 900px;
+      margin-top: 1.5em;
+  }
+
+  .img-add{
+    display: flex;
+  }
+
+  .mobile-none{
+    @media (max-width:900px) {
+      display: none !important;
+    }
+  }
+
+  .tools-holder{
+    width: 85%;
+    margin-top: 2em;
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+    @media (max-width:800px) {
+      margin-top: 0;
+      width: 95%;
+      }
+
+    img{
+      @media (max-width:1200px) {
+        width: 100%;
+
+      }
+    }
+  }
+
+  .header-container{
+    border-radius: 10px;
+    margin-top: -1.6em;
+    padding: 1em 2em;
+    padding-bottom: 0;
+    background-color: rgb(255, 255, 255);
+    margin-bottom: 2em;
+    box-shadow: 5px 5px 25px 0px #00000014;
+    display: flex;
+    font-size: 16px;
+    font-weight: 700;
+    text-align: center;
+    line-height: 21.3px;
+    color:#7E7E7E;
+    @media (max-width:800px) {
+      margin-top: -2em;
+      box-shadow: 5px 5px 25px 0px #00000014;
+      font-size: 14px;
+      line-height: 18.3px;
+      padding: 1em 1em 0 1em;
+    }
+    img{
+      width: 30px;
+      margin: 10px;
+      margin-top: -5px;
+      @media (max-width:800px) {
+        width: 28px;
+      }
+    }
+  }
+  .tools-container{
+    margin: 4em auto;
+    background: linear-gradient(180deg, rgba(241, 174, 19, 0.08) 0%, rgba(241, 174, 19, 0) 100%) no-repeat;
+    background-size: calc(100%) calc(140px);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    @media (max-width:800px) {
+      margin: 3em auto;
+    }
+  }
+  .tools-background{
+    max-width: 85%;
+    max-width: 1400px;
+    border-radius: 4px;
+    min-height: 145px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    @media (max-width:800px) {
+      max-width: 95%;
+
+    }
+  }
+}
+

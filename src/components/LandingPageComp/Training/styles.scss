@@ -1,0 +1,257 @@
+.css-ay3ewf-MuiBackdrop-root-MuiModal-backdrop {
+  background-color: rgba(30, 30, 30, 0.9) !important;
+}
+.lp-training {
+  width: 100%;
+  padding: 1em 2em;
+  padding-bottom: 6em;
+  @media screen and (max-width: 800px) {
+    padding: 0;
+    padding-left: 1.5em;
+    max-width: 340px;
+    margin-top: 1em;
+  }
+ 
+  .lp-trainer-hero {
+    margin-left: 4em;
+    @media screen and (max-width: 800px) {
+      margin-left: 0em;
+      width: 270px;
+    }
+  }
+  .lp-t-sub-head {
+    color: #f1ae13;
+    font-family: Plus Jakarta Sans !important;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 133%;
+    @media screen and (max-width: 800px) {
+      font-size: 16px;
+      padding: 0;
+    }
+  }
+  .l-t-head {
+    color: #505050;
+    font-family: Plus Jakarta Sans !important;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 143%;
+    @media screen and (max-width: 800px) {
+      transform: translateY(5px);
+      font-size: 20px;
+      padding: 0;
+    }
+  }
+  .lp-t-underline {
+    height: 8px;
+    width: 292px;
+    @media screen and (max-width: 800px) {
+      width: 169px;
+      padding: 0;
+      height: 7px;
+    }
+  }
+  .lp-trainers {
+    padding-bottom: 2em !important;
+    margin: 0em auto;
+    padding: 1em 1.5em;
+    @media screen and (max-width: 800px) {
+      padding-bottom: 1em !important;
+    }
+    .slick-next {
+        transform: translate(49.6em, -23em) !important;
+        background: url(../../../../static/assets/nextGrey.png) !important;
+        background-size: cover !important;
+      }
+      .slick-prev {
+        transform: translate(-46.5em, -23em) !important;
+        background: url(../../../images/csm/new-slick-prev.png) !important;
+        background-size: cover !important;
+    }
+  }
+  .l-t-desc {
+    color: #505050;
+    font-family: Plus Jakarta Sans !important;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 143%;
+    margin-top: 0.5em;
+    @media screen and (max-width: 800px) {
+      padding: 0;
+      font-size: 14px;
+      font-weight: 400;
+      line-height: 120%;
+      margin-top: 0.8em;
+      
+    }
+  }
+
+  .lp-trainers {
+    .lp-trainer-card {
+      cursor: pointer;
+      width: 260px !important;
+      height: 352px;
+      box-shadow: 0px 4px 22px 0 rgba(0, 0, 0, 0.1);
+      // margin: 0 1em;
+      border-radius: 10px;
+      @media screen and (max-width: 800px) {
+        width: 154px !important;
+        height: 226px;
+      }
+      .lp-card-header {
+        width: 100%;
+        height: 180px;
+        display: flex;
+        justify-content: center;
+        align-items: end;
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+        @media screen and (max-width: 800px) {
+          width: 154px !important;
+          height: 105px;
+        }
+        .red-playicon {
+          transform: translate(6.5em, -9em);
+          width: 23px;
+          height: 23px;
+          position: absolute;
+          @media screen and (max-width: 800px) {
+            position: relative;
+            transform: translate(-0.1em, -4.5em);
+            width: 20px;
+            height: 20px;
+          }
+        }
+      }
+      .news-card-basl-img {
+        height: 173px;
+        width: auto;
+        @media screen and (max-width: 800px) {
+          width: auto;
+          height: auto;
+          height: 97px;
+          width: 107px;
+          object-fit: cover;
+          object-position: center;
+        }
+      }
+      .news-card-basl-footer {
+        width: 240px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        @media screen and (max-width: 800px) {
+          width: 154px;
+        }
+        .news-basl-footer-text {
+          color: #505050;
+          font-family: Plus Jakarta Sans !important;
+          font-size: 18px;
+          font-style: normal;
+          font-weight: 700;
+          line-height: 143%;
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          padding-top: 1em;
+          @media screen and (max-width: 800px) {
+            font-size: 14px;
+          }
+        }
+        .training-comp-img {
+          max-width: 180px;
+          height: auto;
+          margin: 1em 0;
+          @media screen and (max-width: 800px) {
+            max-width: 100px;
+          }
+        }
+      }
+    }
+  }
+  .lp-btn-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 1em;
+  }
+  .popupBtn {
+    width: 302px;
+    height: 46px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    font-family: Plus Jakarta Sans !important;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 143%;
+    border: none;
+    background: #f1ae13;
+    border-radius: 50px;
+    cursor: pointer;
+    @media screen and (max-width: 800px) {
+      display: none;
+    }
+  }
+  .basl-main-placements {
+    @media screen and (max-width: 800px) {
+      height: auto;
+    }
+  }
+  .lp-mobile-cards-container {
+    display: flex;
+    width: 100%;
+    overflow-x: scroll;
+    height: 100%;
+    margin: 2em 0;
+    @media screen and (min-width: 800px) {
+      display: none;
+    }
+    .lp-trainers {
+      display: flex;
+      padding: 0 13px;
+      @media screen and (max-width: 800px) {
+        transform: translateX(-11px);
+      }
+    }
+    .lp-trainer-card {
+      margin-right: 1.2em;
+      height: 216px;
+      margin-bottom: 1em;
+    }
+  }
+  .modal-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    padding: 16px;
+    box-shadow: 24;
+    width: 50%;
+    height: 50vh;
+    outline: none;
+  }
+}
+.video-modal-close {
+  color: #fff;
+  font-weight: 400;
+  font-size: 20px;
+  position: absolute;
+  top: 28%;
+  cursor: pointer;
+  left: 75%;
+  background: none;
+  border: none;
+  @media screen and (max-width: 800px) {
+    font-size: 16px;
+    position: absolute;
+    top: 33%;
+    cursor: pointer;
+    left: 88%;
+  }
+}

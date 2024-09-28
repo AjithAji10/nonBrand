@@ -1,0 +1,137 @@
+.card-7 {
+  background: white;
+  margin: 0 0.5em;
+  height: 100%;
+  padding: 1em;
+  border-radius: 8px;
+  box-shadow: 5px 5px 25px rgba(0, 0, 0, 0.08);
+  //max-width: 284px;
+  margin: 0 1em;
+  @media screen and (max-width: 800px) {
+    height: 340px;
+    //width: 340px;
+    min-height: 340px;
+  }
+  .alumni-name {
+    color: #f1ae13;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 23px;
+    margin-top: 10px;
+    @media screen and (max-width: 800px) {
+        font-size: 12px;
+        line-height: 17.2px;
+    }
+  }
+ 
+  .showMore{
+    font-size: 14px;
+    color: #3751FF;
+    cursor: pointer;
+  }
+
+  .social-img{
+    width: 40px;
+    height: 40px;
+    margin-top: 15px;
+    margin-right: 1em;
+  }
+
+  .alumni-company {
+    color: #7e7e7e;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    @media screen and (max-width: 800px) {
+      font-size: 12px;
+      line-height: 17.2px;
+  }
+  }
+
+  .specialisation{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 14px;
+    color: #7E7E7E;
+    margin-top: 5px;
+    @media screen and (max-width: 800px) {
+      font-size: 12px;
+      line-height: 14px;
+   }
+  }
+
+  .testimonial{
+    font-weight: 500;
+    font-style: italic;
+    font-size: 14px;
+    line-height: 20.5px;
+    color: #7E7E7E;
+    @media screen and (max-width: 800px) {
+      font-size: 11px;
+      line-height: 16.16px;
+   }
+  }
+
+.space-between{
+  display: flex;
+  justify-content: space-between;
+}
+  
+  .type2-head {
+ 
+    // align-items: center;
+
+    .type2-img-div {
+      width: 100%;
+      margin-right: 1em;
+      max-width: 85px;
+    }
+
+    .type2-info {
+      font-weight: bold;
+      margin-top: 1em;
+      .name {
+        color: #7e7e7e;
+        font-size: 0.9em;
+      }
+      .company {
+        color: #f1ae13;
+        font-size: 0.8em;
+      }
+
+     
+      .deco-line {
+        width: 10em;
+        margin-top: 0.5em;
+        border: 0.5px solid #f1ae13;
+      }
+    }
+  }
+
+  .type2-description-c7 {
+    font-size: 0.8em;
+    color: #7e7e7e;
+    margin-top: 0;
+    line-height: 20.6px;
+    font-weight: 500;
+  }
+  .type2-description_bold {
+    font-weight: bold;
+    font-size: 0.8em;
+    line-height: 157.9%;
+    color: #7e7e7e;
+    margin-top: 0.8rem;
+  }
+}
+
+.yellow-hr{
+  width: 100%;
+  border: 0.2px solid #f1ae13;
+  height: 0px;
+  opacity: .3;
+  margin: 1em 0;
+}
+.italic{
+  font-style: italic;
+  font-weight: 500;
+}

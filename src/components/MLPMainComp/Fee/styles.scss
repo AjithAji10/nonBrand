@@ -1,0 +1,377 @@
+.mlp-main-fee {
+  background: none !important;
+  color: #7e7e7e;
+  padding: 6em 0 0 !important;
+  .amount{
+    color: rgb(73, 73, 171);
+    font-weight: 700;
+  }
+
+  .fees{
+    display: flex;
+    margin: 1em 0;
+  }
+
+  .fee-content{
+    display: block;
+    padding-right: .5em;
+    font-size: 14px;
+    @media screen and (max-width: 900px) {
+      font-size: 12px;
+    
+    }
+  }
+
+  .plus{
+    font-size: 35px;
+    margin-right: 0.6em;
+  }
+
+  .amount-big{
+    font-size: 26px;
+    font-weight: 500;
+    @media screen and (max-width: 900px) {
+      font-size: 20px;
+    }
+  }
+  .prepaid{
+    padding: 0.5em 0;
+  }
+  .amount-sm{
+    font-size: 24px;
+    font-weight: 600;
+    color: rgb(73, 73, 171);
+    margin-top: 0.23em;
+    @media screen and (max-width: 900px) {
+      font-size: 1.3em
+    }
+  }
+
+  .yellow-text{
+    color: #f1ae13;
+  }
+
+  .fee-footer{
+    margin-top:2em;
+    a {
+      color: blue;
+      font-size: 1em;
+      cursor: pointer !important;
+    }
+    @media screen and (max-width: 900px) {
+      font-size: 12px;
+    }
+    
+  }
+
+  .refunded{
+    padding: 1em 0em !important;
+  }
+
+  padding: 7em 0;
+  padding-bottom: 2em;
+  @media screen and (max-width: 900px) {
+    padding: 2em 0;
+  }
+  .fee-container {
+    width: 70% !important;
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+    @media screen and (max-width: 900px) {
+      width: 90% !important;
+    }
+  }
+
+  .mlp-fee-title {
+    font-size: 1.7em;
+    font-weight: bold;
+    margin: 1em auto;
+    @media screen and (max-width: 900px) {
+      font-size: 1.4em;
+    }
+  }
+
+  .mlp-fee-description {
+    font-size: 1.1em;
+    line-height: 25px;
+    .description-one {
+      color: #f1ae13;
+      font-weight: bold;
+
+      .fee-line-break {
+        display: block;
+      }
+    }
+    @media screen and (max-width: 900px) {
+      font-size: 12px !important;
+      line-height: 18px !important;
+      padding: 0 1em;
+    }
+  }
+
+  .mlp-fee-options {
+    text-align: initial;
+    display: flex;
+    @media screen and (max-width: 900px) {
+      display: block;
+    }
+    .mlp-fee-option-1 {
+      padding-right: 4em;
+      border-right: 1px solid #7e7e7e;
+      padding-bottom: 2em;
+      font-weight: normal;
+      @media screen and (max-width: 900px) {
+        padding-right: 0em;
+        border-right: none;
+        border-bottom: 1px solid;
+        margin-bottom: 2rem;
+        padding-bottom: 2em !important;
+      }
+    }
+    .mlp-fee-option-2 {
+      padding-left: 4em;
+      padding-bottom: 2em;
+      font-weight: normal;
+      @media screen and (max-width: 900px) {
+        padding-left: 0em;
+      }
+    }
+
+    .option-title {
+      font-size: 1.1em;
+      line-height: 22px;
+      color: #000000;
+      font-weight: normal;
+      display: block;
+      @media screen and (max-width: 900px) {
+        font-size: 1em;
+      }
+    }
+
+    .option-description {
+      margin-top: 1.5em;
+      @media screen and (max-width: 900px) {
+        font-size: 12px !important;
+      }
+    }
+
+    .desc-dot {
+      @media screen and (max-width: 900px) {
+        padding-left: 0.8rem;
+      }
+    }
+
+    .desc-dot::before {
+      content: "\2022";
+      color: #f1ae13;
+      font-weight: bold;
+      display: inline-block;
+      width: 1em;
+      margin-left: -1em;
+    }
+  }
+
+  .fee-note {
+    margin: 4em auto;
+    font-size: 0.8em;
+    @media screen and (max-width: 900px) {
+      font-size: 12px !important;
+      margin: 0 auto !important;
+      text-align: left;
+    }
+  }
+
+  .fee-range-slider {
+    background: #fff;
+    max-width: 700px;
+    margin: auto;
+    padding: 1.5rem;
+    box-shadow: 4px 4px 25px rgba(0, 0, 0, 0.015);
+    @media screen and (max-width: 900px) {
+      padding: 1.5em 2rem;
+    }
+    .fee-range-head {
+      font-weight: bold;
+      font-size: 1.4em;
+      line-height: 29px;
+      color: #f1ae13;
+      @media screen and (max-width: 900px) {
+        font-size: 1em;
+      }
+    }
+
+    .fee-range-salary {
+      font-size: 0.95em;
+      margin-top: 0.5em;
+      color: #949494;
+      @media screen and (max-width: 900px) {
+        font-size: 0.9em;
+        margin-top: 0.2em;
+      }
+      .salary-text {
+        display: block;
+        font-weight: bold;
+      }
+    }
+
+    .fee-range-input {
+      margin: 3em auto;
+      @media screen and (max-width: 900px) {
+        margin: 2em auto;
+        margin-bottom: 1.5em;
+      }
+      .input-slider {
+        -webkit-appearance: none;
+        width: 100%;
+        max-width: 40em;
+        height: 5px;
+        border-radius: 5px;
+        outline: none;
+        padding: 0;
+        display: block;
+        margin: 0 auto;
+        background: linear-gradient(
+          90deg,
+          rgb(241, 174, 19) 72.7273%,
+          rgb(241, 174, 19) 72.8273%
+        );
+
+        &::-webkit-slider-thumb {
+          box-sizing: border-box;
+          -webkit-appearance: none;
+          appearance: none;
+          width: 30px;
+          height: 30px;
+          cursor: pointer;
+          padding: 1em;
+          border-radius: 100%;
+          background: #f1ae13;
+          border: 1px solid #ffffff;
+          box-shadow: 1px 1px 1px rgba(0, 0, 0,0.2);
+        }
+      }
+
+      .fee-range-number {
+        display: flex;
+        justify-content: space-between;
+        margin: 0 auto;
+        margin-top: 1em;
+        max-width: 35em;
+        width: 100%;
+        @media screen and (max-width: 900px) {
+          font-size: 0.8em;
+        }
+      }
+    }
+
+    .fee-range-total {
+      font-weight: bold;
+      @media screen and (max-width: 900px) {
+        font-size: 0.8em;
+      }
+
+      .payable-text {
+        font-weight: initial;
+      }
+    }
+  }
+
+  .fee-calc-table {
+    background: #fff;
+    max-width: 700px;
+    margin: 3em auto;
+    padding: 1.5rem;
+    box-shadow: 4px 4px 25px rgba(0, 0, 0, 0.015);
+    color: #000000;
+    @media screen and (max-width: 900px) {
+      padding: 1em;
+      margin: 0 !important;
+    }
+
+    .fee-calc-head {
+      @media screen and (max-width: 900px) {
+        font-size: 0.8em;
+      }
+    }
+
+    .fee-table {
+      margin-top: 1em;
+      overflow-x: auto;
+      @media screen and (max-width: 900px) {
+        display: block !important;
+      }
+
+      .new-line {
+        display: block;
+      }
+      table {
+        border-collapse: collapse;
+        width: 100%;
+
+        td,
+        th {
+          border: 0.5px solid #7e7e7e;
+        }
+      }
+
+      .table-sub-head{
+        th {
+          font-size: 0.9em;
+          padding: 0.5em;
+          color: #606060;
+        }
+      }
+
+      .table-head {
+        th {
+          background: #e5e5e5;
+          padding: 1em 0.5em;
+          font-size: 0.9em;
+          text-align: left;
+          @media screen and (max-width: 900px) {
+            padding: 0.5em;
+            font-size: 0.8em;
+            width: 60%;
+          }
+        }
+      }
+
+      .table-content {
+        th {
+          padding: 1em 0.5em;
+          font-weight: 400;
+          font-size: 0.8em;
+        }
+      }
+
+      .table-footer {
+        th {
+          padding: 1em 0.5em;
+          font-size: 0.8em;
+          background: #f1ae13;
+          border: 0.5px solid #7e7e7e;
+        }
+      }
+    }
+
+    .fee-table-mob {
+      display: none;
+      margin-top: 1em;
+
+      @media screen and (max-width: 900px) {
+        display: block;
+      }
+    }
+    .fee-table-note {
+      text-align: initial;
+      font-size: 0.8em;
+      margin-top: 0.5em;
+      font-style: italic;
+      text-align: center !important;
+      @media screen and (max-width: 900px) {
+        font-size: 0.7em;
+      }
+    }
+  }
+}

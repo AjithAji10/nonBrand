@@ -1,0 +1,148 @@
+.ivr-section {
+    display: flex;
+    flex-direction: column;
+    //background: #F6F6F6;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem;
+    padding: 2rem;
+    min-height: 492px;
+    margin-bottom: 3em;
+    background: url(../../../images/common/ivrBg.png);
+    background-size: cover;
+    .new-underline {
+      width: 77%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin: 0.3em 0;
+      img {
+        // width: 22%;
+        width: 204px;
+        margin-left: -24px;
+        @media screen and (max-width: 900px) {
+          width: 75%;
+          margin-bottom: 1em;
+        }
+      }
+    }
+    .help {
+      color: #7E7E7E;
+      text-align: center;
+      //font-family: Plus Jakarta Sans !important;
+      font-size: 48px;
+      font-style: normal;
+      font-weight: 800;
+      line-height: 116.4%; /* 55.872px */
+  
+      @media screen and (max-width: 900px) {
+        font-size: 24px;
+      }
+    }
+  
+    .talk {
+      color: #f1ae13;
+      font-weight: 600;
+      @media screen and (max-width: 900px) {
+        font-size: 1.25rem;
+      }
+    }
+  
+    .available {
+      color: #7E7E7E;
+      text-align: center;
+      //font-family: Plus Jakarta Sans !important;
+      font-size: 24px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 120%; /* 28.8px */
+      @media screen and (max-width: 900px) {
+        font-size: 20px;
+        line-height: 140%;
+      }
+    }
+    .ivr-body {
+      width: 80%;
+      display: flex;
+      margin-top: 2em;
+      justify-content: space-around;
+      @media screen and (max-width: 900px) {
+        flex-direction: column;    
+        margin-top: 1em;
+      }
+      .title {
+        display: flex;
+        align-items: center;
+        color: #f1ae13;
+        //font-family: Plus Jakarta Sans !important;
+        font-size: 36px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 140%; /* 50.4px */
+        .ivricon-phone,
+        .ivr-icon-email {
+          width: 75px;
+          height: 75px;
+          object-fit: contain;
+          margin-right: 0.4em;
+          @media screen and (max-width: 900px) {
+            width: 50px;
+            height: 50px;
+            margin-right: 0.5em;
+          }
+        }
+        .ivricon-email {
+            width: 100px;
+            height: 100px;
+            @media screen and (max-width: 900px) {
+                width: 60px;
+                height: 60px;
+            }
+        }
+        @media screen and (max-width: 900px) {
+          font-size: 27px;
+          display: flex;
+          justify-content: center;
+        }
+      }
+      .desc {
+        color: #7E7E7E !important;
+        text-align: center;
+        //font-family: Plus Jakarta Sans !important;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 140%; /* 33.6px */
+        @media screen and (max-width: 900px) {
+          font-size: 20px;
+        }
+        .conatact-email {
+          color: #7E7E7E;
+          text-align: center;
+          //font-family: Plus Jakarta Sans !important;
+          font-size: 24px !important;
+          font-style: normal;
+          font-weight: 700;
+          line-height: 140%; /* 33.6px */
+          @media screen and (max-width: 900px) {
+            font-size: 20px !important;
+          }
+        }
+      }
+      .email {
+          display: flex;
+          flex-direction: column;
+          justify-content: flex-start;
+          @media screen and (max-width: 900px) {
+            margin-top: 1em;
+          }
+      }
+      .call {
+        @media screen and (max-width: 900px) {
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+        }
+      }
+    }
+  }
